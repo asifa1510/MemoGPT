@@ -2,13 +2,10 @@
 
 > Your Personalized AI Assistant with Memory, Voice, and GitHub Knowledge.
 
----
 
 ## 🚀 Overview
 
 **MemoGPT** is a customizable, voice-enabled AI chatbot powered by OpenAI and LangChain. It remembers your chats, understands your code, and speaks to you — all through a beautiful Streamlit interface.
-
----
 
 ## 🌟 Features
 
@@ -17,8 +14,6 @@
 ✅ **GitHub repo training** — your AI learns from your code  
 ✅ **Modern Streamlit UI** for chatting  
 ✅ **Easy to extend & customize**
-
----
 
 ## 🧰 Tech Stack
 
@@ -32,4 +27,3 @@
 | pyttsx3 / gTTS | Voice output (text-to-speech) |
 | GitPython      | GitHub code fetching          |
 
----
