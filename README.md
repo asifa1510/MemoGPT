@@ -1,29 +1,32 @@
 # 🧠 MemoGPT
 
-> Your Personalized AI Assistant with Memory, Voice, and GitHub Knowledge.
+> Your Personalized Open-Source AI Assistant with Memory, Voice, and Code Awareness.
 
+---
 
 ## 🚀 Overview
 
-**MemoGPT** is a customizable, voice-enabled AI chatbot powered by OpenAI and LangChain. It remembers your chats, understands your code, and speaks to you — all through a beautiful Streamlit interface.
+**MemoGPT** is a local-first, voice-enabled AI chatbot that remembers your conversations, understands your codebase, and runs entirely on free, open-source tools.
 
 ## 🌟 Features
 
-✅ **Conversational memory** stored long-term using Pinecone  
-✅ **Voice input & output** for hands-free interaction  
-✅ **GitHub repo training** — your AI learns from your code  
-✅ **Modern Streamlit UI** for chatting  
-✅ **Easy to extend & customize**
+- ✅ **Conversational Memory** stored locally with FAISS  
+- ✅ **Voice Input & Output** for hands-free chatting  
+- ✅ **GitHub Repo Training** — learns from your own code  
+- ✅ **Modern Streamlit Interface**  
+- ✅ **Runs Offline** using local LLMs (Mistral, LLaMA, etc.)
+
+
 
 ## 🧰 Tech Stack
 
-| Tool           | Role                          |
-|----------------|-------------------------------|
-| LangChain      | Memory & conversational logic |
-| OpenAI API     | GPT responses & embeddings    |
-| Pinecone        | Vector storage for memory     |
-| Streamlit      | Web UI for chat interface     |
-| Whisper / SR   | Voice input (SpeechRecognition or OpenAI Whisper) |
-| pyttsx3 / gTTS | Voice output (text-to-speech) |
-| GitPython      | GitHub code fetching          |
+| Tool/Library         | Role                                         |
+|----------------------|----------------------------------------------|
+| **LangChain**        | Conversational agent & memory management     |
+| **Ollama**           | Local LLM runner (Mistral, LLaMA3, etc.)     |
+| **FAISS**            | Local vector database for storing memory     |
+| **Streamlit**        | Frontend UI for interaction                  |
+| **SpeechRecognition**| Voice input from microphone                  |
+| **pyttsx3 / gTTS**   | Text-to-speech for voice responses           |
+| **GitPython**        | GitHub repo cloning & code ingestion         |
 
