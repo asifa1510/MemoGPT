@@ -1,0 +1,8 @@
+streamlit
+pyttsx3
+speechrecognition
+pyaudio
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
