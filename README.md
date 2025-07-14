@@ -1,34 +1,35 @@
-# 🧠 MemoGPT
+# MemoGPT
 
-> Your Personalized Open-Source AI Assistant with Memory, Voice, and Code Awareness.
+A private, local-first AI assistant with memory, voice interaction, and code awareness. Powered by open-source tools and local language models.
 
 ---
 
-## 🚀 Overview
+## Features
 
-**MemoGPT** is a local-first, voice-enabled AI chatbot that remembers your conversations, understands your codebase, and runs entirely on free, open-source tools.
+- Persistent chat memory using FAISS  
+- Voice input and text-to-speech output  
+- Integrates with your GitHub codebase  
+- Simple Streamlit UI  
+- Runs completely offline via Ollama + local LLMs
 
-## 🌟 Features
+---
 
-- ✅ **Conversational Memory** stored locally with FAISS  
-- ✅ **Voice Input & Output** for hands-free chatting  
-- ✅ **GitHub Repo Training** — learns from your own code  
-- ✅ **Modern Streamlit Interface**  
-- ✅ **Runs Offline** using local LLMs (Mistral, LLaMA, etc.)
+## Tech Stack
 
+| Tool              | Purpose                      |
+|------------------|------------------------------|
+| LangChain         | Memory + agent logic         |
+| Ollama            | Run local LLMs (e.g. Mistral)|
+| FAISS             | Store chat history vectors   |
+| Streamlit         | Frontend chat interface      |
+| SpeechRecognition | Voice input                  |
+| pyttsx3 / gTTS    | Voice output                 |
+| GitPython         | Code ingestion from GitHub   |
 
+---
 
-## 🧰 Tech Stack
+No cloud. No tracking. Just your AI—locally and securely.
 
-| Tool/Library         | Role                                         |
-|----------------------|----------------------------------------------|
-| **LangChain**        | Conversational agent & memory management     |
-| **Ollama**           | Local LLM runner (Mistral, LLaMA3, etc.)     |
-| **FAISS**            | Local vector database for storing memory     |
-| **Streamlit**        | Frontend UI for interaction                  |
-| **SpeechRecognition**| Voice input from microphone                  |
-| **pyttsx3 / gTTS**   | Text-to-speech for voice responses           |
-| **GitPython**        | GitHub repo cloning & code ingestion         |
 
 ---
 <img width="1887" height="839" alt="image" src="https://github.com/user-attachments/assets/a3d4bd9d-3d19-4257-a74b-5cfa0d15b2e9" />
