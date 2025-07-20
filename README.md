@@ -8,7 +8,6 @@ A private, local-first AI assistant with memory, voice interaction, and code awa
 
 - Persistent chat memory using FAISS  
 - Voice input and text-to-speech output  
-- Integrates with your GitHub codebase  
 - Simple Streamlit UI  
 - Runs completely offline via Ollama + local LLMs
 
@@ -24,7 +23,7 @@ A private, local-first AI assistant with memory, voice interaction, and code awa
 | Streamlit         | Frontend chat interface      |
 | SpeechRecognition | Voice input                  |
 | pyttsx3 / gTTS    | Voice output                 |
-| GitPython         | Code ingestion from GitHub   |
+
 
 ---
 
