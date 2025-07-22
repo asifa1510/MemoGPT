@@ -3,9 +3,9 @@ MemoGPT
 **MemoGPT** is a private, offline AI assistant that uses voice or text input, remembers past conversations with FAISS, and generates smart responses using the Ollama Gemma 2B model. It follows a **Retrieval-Augmented Generation (RAG)** approach to give context-aware replies based on your past chats. The system runs entirely on your machine—no internet, no cloud, just local intelligence.
 
 
----
 
-## 🔹 Features
+
+ Features
 
 - 🎤 Voice and text input  
 - 🧠 Long-term memory using FAISS  
