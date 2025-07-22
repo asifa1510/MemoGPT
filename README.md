@@ -6,17 +6,15 @@ Built using **Retrieval-Augmented Generation (RAG)**, it combines semantic memor
 
 ### ✨ Features
 
-- 🎤 Voice input and speech output  
+- 🎤 Voice input and text output  
 - 🧠 Long-term memory using FAISS  
-- 📁 Understands documents and code  
-- 🖥️ Clean UI with Streamlit  
 - 🔐 100% offline – fully local and private
 
 ### ⚙️ Tech Stack
 
 - Python, Streamlit  
 - FAISS for vector search  
-- OpenAI API or local LLM  
+- Ollama: gemma 2b
 - SpeechRecognition, pyttsx3
 
 ### 💡 Use Cases
@@ -26,5 +24,8 @@ Built using **Retrieval-Augmented Generation (RAG)**, it combines semantic memor
 - Build your own private ChatGPT
 
 ---
+<img width="1887" height="839" alt="image" src="https://github.com/user-attachments/assets/a3d4bd9d-3d19-4257-a74b-5cfa0d15b2e9" />
 
-Created by [Asifa](https://github.com/asifa1510). Feel free to explore, fork, and contribute!
+---
+
+<img width="1671" height="600" alt="image" src="https://github.com/user-attachments/assets/7a4d5295-0da0-47f8-9534-4eff282c1607" />
