@@ -1,6 +1,6 @@
 # MemoGPT
 
-## Retrieval-Augmented Generation 
+# Retrieval-Augmented Generation 
 
 A private, local-first AI assistant with memory, voice interaction, and code awareness. Powered by open-source tools and local language models.
 
