@@ -1,27 +1,16 @@
 # 🧠 MemoGPT
 
-**MemoGPT** is a private, offline AI assistant that remembers your conversations, understands your files, and responds to voice commands — all without sending data to the cloud.
+**MemoGPT** is a private, offline AI assistant that uses voice or text input, remembers your past conversations using FAISS, and generates smart responses using the Ollama Gemma 2B model. It runs entirely on your machine with no internet required.
 
-Built using **Retrieval-Augmented Generation (RAG)**, it combines semantic memory (FAISS) with a language model like GPT to generate context-aware replies. Whether you're asking about your past chats, Python scripts, or notes, MemoGPT retrieves relevant info and responds intelligently.
+---
 
-### ✨ Features
+## 🔹 Features
 
-- 🎤 Voice input and text output  
+- 🎤 Voice and text input  
 - 🧠 Long-term memory using FAISS  
-- 🔐 100% offline – fully local and private
-
-### ⚙️ Tech Stack
-
-- Python, Streamlit  
-- FAISS for vector search  
-- Ollama: gemma 2b
-- SpeechRecognition, pyttsx3
-
-### 💡 Use Cases
-
-- Chat with your saved ideas or files  
-- Ask questions about code or notes  
-- Build your own private ChatGPT
+- 🤖 Context-aware replies via Gemma 2B (Ollama)  
+- 🖥️ Simple Streamlit UI  
+- 🔐 Fully local and privacy-preserving
 
 ---
 <img width="1887" height="839" alt="image" src="https://github.com/user-attachments/assets/a3d4bd9d-3d19-4257-a74b-5cfa0d15b2e9" />
