@@ -1,39 +1,30 @@
-# MemoGPT
--
-MemoGPT is a fully local, privacy-focused AI assistant that combines voice interaction, long-term memory, and code/document understanding into a seamless user experience. Built using RAG (Retrieval-Augmented Generation), it retrieves relevant past conversations or local documents using FAISS vector search, and generates context-aware responses via a large language model (LLM).
----
+# 🧠 MemoGPT
 
-## Features
+**MemoGPT** is a private, offline AI assistant that remembers your conversations, understands your files, and responds to voice commands — all without sending data to the cloud.
 
-- Persistent chat memory using FAISS  
-- Voice input and text-to-speech output  
-- Simple Streamlit UI  
-- Runs completely offline via Ollama + local LLMs
+Built using **Retrieval-Augmented Generation (RAG)**, it combines semantic memory (FAISS) with a language model like GPT to generate context-aware replies. Whether you're asking about your past chats, Python scripts, or notes, MemoGPT retrieves relevant info and responds intelligently.
 
----
+### ✨ Features
 
-## Tech Stack
+- 🎤 Voice input and speech output  
+- 🧠 Long-term memory using FAISS  
+- 📁 Understands documents and code  
+- 🖥️ Clean UI with Streamlit  
+- 🔐 100% offline – fully local and private
 
-| Tool              | Purpose                      |
-|------------------|------------------------------|
-| LangChain         | Memory + agent logic         |
-| Ollama            | Run local LLMs (e.g. Mistral)|
-| FAISS             | Store chat history vectors   |
-| Streamlit         | Frontend chat interface      |
-| SpeechRecognition | Voice input                  |
-| pyttsx3 / gTTS    | Voice output                 |
+### ⚙️ Tech Stack
 
+- Python, Streamlit  
+- FAISS for vector search  
+- OpenAI API or local LLM  
+- SpeechRecognition, pyttsx3
 
----
+### 💡 Use Cases
 
-No cloud. No tracking. Just your AI—locally and securely.
-
-
----
-<img width="1887" height="839" alt="image" src="https://github.com/user-attachments/assets/a3d4bd9d-3d19-4257-a74b-5cfa0d15b2e9" />
+- Chat with your saved ideas or files  
+- Ask questions about code or notes  
+- Build your own private ChatGPT
 
 ---
 
-<img width="1671" height="600" alt="image" src="https://github.com/user-attachments/assets/7a4d5295-0da0-47f8-9534-4eff282c1607" />
-
-
+Created by [Asifa](https://github.com/asifa1510). Feel free to explore, fork, and contribute!
