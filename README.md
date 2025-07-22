@@ -1,9 +1,5 @@
 # MemoGPT
-
-(Retrieval-Augmented Generation)
-
-A private, local-first AI assistant with memory, voice interaction, and code awareness. Powered by open-source tools and local language models.
-
+MemoGPT is a fully local, privacy-focused AI assistant that combines voice interaction, long-term memory, and code/document understanding into a seamless user experience. Built using RAG (Retrieval-Augmented Generation), it retrieves relevant past conversations or local documents using FAISS vector search, and generates context-aware responses via a large language model (LLM).
 ---
 
 ## Features
