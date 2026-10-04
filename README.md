@@ -9,7 +9,7 @@
 🧠 Long-term memory using FAISS  
 🤖 Context-aware replies via Gemma 2B (Ollama)  
 🖥️ Simple Streamlit UI  
-🔐 Fully local and privacy-preserving
+🔐 Fully local and privacy-preserving 
 
 ---
 <img width="1887" height="839" alt="image" src="https://github.com/user-attachments/assets/a3d4bd9d-3d19-4257-a74b-5cfa0d15b2e9" />
